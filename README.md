@@ -30,8 +30,27 @@ This repository contains a sandbox project for experimenting with Soundevice and
 
 5. Run the application:
    ```bash
-   flask run
+   python main.py
    ```
+   
+   Or alternatively:
+   ```bash
+   python -m src
+   ```
+
+---
+
+## Project Structure
+
+```
+src/
+├── __init__.py           # Package initialization
+├── app.py               # Flask application and routes
+├── config.py            # Configuration and constants
+├── spotify_service.py   # Spotify API client
+└── svg_generator.py     # SVG visualization generator
+main.py                 # Application entry point
+```
 
 ---
 
