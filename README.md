@@ -38,6 +38,10 @@ This repository contains a sandbox project for experimenting with Soundevice and
    python -m src
    ```
 
+6. Quit the virtual environment when done:
+   ```bash
+   deactivate
+   ```
 ---
 
 ## Project Structure
